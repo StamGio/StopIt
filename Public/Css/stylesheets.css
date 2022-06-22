@@ -1,16 +1,14 @@
 
-html, body {
-
+html,body {
   text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-img {
-    width:  300px;
-    height: 600px;
-    object-fit: cover;
-    background-position: center;
-    background-size: cover;
-}
+
 
 /* Text design */
 
@@ -34,11 +32,10 @@ background-image: linear-gradient(to right,#354259,#A3E4DB );
 
 
 /* Title */
+#title {
+  background-color: #edf5f4
 
-.row {
-  background-color: #edf5f4;
 }
-
 
 
 /* Carousel */
@@ -47,6 +44,9 @@ background-image: linear-gradient(to right,#354259,#A3E4DB );
   position: absolute;
   background-position:center;
   background-size: cover;
+  width:  300px;
+  height: 600px;
+  object-fit: cover;
 
 }
 
@@ -55,13 +55,29 @@ background-image: linear-gradient(to right,#354259,#A3E4DB );
   weight: 32rem;
 }
 
+
+/* Cards */
+
+#cards {
+  padding: 100px;
+  background-color: #edf5f4
+}
+
+.card {
+  margin-left: 125px;
+}
+
+.row {
+  padding-top: 20px;
+}
+
 /* Footer */
 
 #footer {
-
+  width: 100%;
   padding: 7% 15%;
-}
+  background-image: linear-gradient(to right,#A3E4DB ,#354259 );
+  color: white;
 
-.footericons {
-  margin: 20px 10px;
+
 }
