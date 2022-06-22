@@ -1,0 +1,67 @@
+
+html, body {
+
+  text-align: center;
+}
+
+img {
+    width:  300px;
+    height: 600px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Text design */
+
+.center {
+margin: auto;
+width: 60%;
+padding: 100px;
+
+}
+
+
+/* Navbar */
+
+.header{width: 100%;
+background-image: linear-gradient(to right,#354259,#A3E4DB );
+}
+.navbar-brand{color: white!important;}
+.nav-link{color: white!important;}
+.nav-link:hover{color:#354259 !important}
+.navbar-brand:hover{color: #354259!important;}
+
+
+/* Title */
+
+.row {
+  background-color: #edf5f4;
+}
+
+
+
+/* Carousel */
+
+.image {
+  position: absolute;
+  background-position:center;
+  background-size: cover;
+
+}
+
+.carousel-item {
+  height: 32rem;
+  weight: 32rem;
+}
+
+/* Footer */
+
+#footer {
+
+  padding: 7% 15%;
+}
+
+.footericons {
+  margin: 20px 10px;
+}
