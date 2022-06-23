@@ -6,6 +6,11 @@ html,body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+
+}
+
+h1,h5 {
+  padding-bottom: 25px;
 }
 
 
@@ -15,8 +20,15 @@ html,body {
 .center {
 margin: auto;
 width: 60%;
-padding: 100px;
+padding: 70px;
+margin: 20px;
 
+}
+
+.proper-text {
+  letter-spacing: 2px;
+  font-family: 'Barlow',sans-serif;
+text-align: center;
 }
 
 
@@ -55,6 +67,9 @@ background-image: linear-gradient(to right,#354259,#A3E4DB );
   weight: 32rem;
 }
 
+/* Mid */
+
+
 
 /* Cards */
 
@@ -63,13 +78,14 @@ background-image: linear-gradient(to right,#354259,#A3E4DB );
   background-color: #edf5f4
 }
 
-.card {
+.col {
   margin-left: 125px;
 }
 
 .card-line {
   padding-top: 40px;
 }
+
 
 
 /* Footer */
