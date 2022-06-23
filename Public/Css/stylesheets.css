@@ -67,9 +67,10 @@ background-image: linear-gradient(to right,#354259,#A3E4DB );
   margin-left: 125px;
 }
 
-.row {
-  padding-top: 20px;
+.card-line {
+  padding-top: 40px;
 }
+
 
 /* Footer */
 
