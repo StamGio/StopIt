@@ -1,2 +1,3 @@
 # StopIt
-new
+None profitable organization that is helping to stop alcoholism.
+
