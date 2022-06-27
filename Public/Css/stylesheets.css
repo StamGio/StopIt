@@ -15,6 +15,15 @@ h1,h5 {
   padding-bottom: 25px;
 }
 
+/* keep footer on bottom */
+
+main {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+  min-height: calc(100vh - 211px - 58px);
+}
+
 
 /* Text design */
 
@@ -70,10 +79,6 @@ background-image: linear-gradient(to right,#354259,#A3E4DB );
   weight: 32rem;
 }
 
-/* Mid */
-
-
-
 /* Cards */
 
 #cards {
@@ -101,13 +106,12 @@ background-image: linear-gradient(to right,#354259,#A3E4DB );
 
 }
 
-/* keep footer on bottom */
-/* main {
-  width: 90vw;
-  margin: 0 auto;
-  padding: 30px 20px;
-  min-height: calc(100vh - 211px - 58px);
-} */
+/* About Us Page */
+
+#about-us {
+  background-color: #edf5f4;
+}
+
 
 /* Contact Us Page */
 #contact-us {
@@ -129,3 +133,35 @@ margin-left: 200px;
   text-decoration:none;
   color: black;
 }
+
+/* Donations */
+
+#donations {
+    background-color:  #edf5f4;
+}
+
+.button {
+background:    #9addd3;
+background:    linear-gradient(#9addd3, #354259);
+border: none;
+border-radius: 11px;
+padding:       20px 43px;
+color:         #ffffff;
+display:       inline-block;
+font-family: 'Barlow',sans-serif;
+text-align:    center;
+transition: ease-out 0.5s;
+}
+
+.button:hover {
+box-shadow: inset 300px 0 0 0 #354259;
+content: "Help" !important;
+}
+
+
+/* Events */
+
+#events {
+  background-color:  #edf5f4;
+}
+/* Calendar */
